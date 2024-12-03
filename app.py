@@ -7,7 +7,7 @@ def hello_world():
     return 'Hello,This is the example of flask website !'
 @app.route('/about/')
 def about():
-    return render_template('about.html')
+    return render_template('index.html')
 
 
 
